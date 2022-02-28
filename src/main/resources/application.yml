@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+solace:
+  jms:
+    host: {host}
+    msg-vpn: {vpn}
+    client-username: {un}
+    client-password: {pwd}
